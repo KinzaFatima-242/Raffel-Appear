@@ -1,0 +1,321 @@
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+                                  
+                                      
+                                      
+                                    
+
+
+.h2 {
+    background-color:white;
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+     padding:15px;}
+  
+     .RA{
+      font-size:80px;
+      margin-top: -20px;
+      color:white;
+      text-shadow: black 2px 1px;
+      background-color: black ;
+      padding: 20px 30px;
+      text-align: left;
+      box-shadow:0px 10px 10px 0px black;
+      
+      
+      }
+      
+
+
+.weddingdress{ font-size:20px;
+  color:black;  
+  
+ padding: 30px 20px ;
+ box-shadow: 0px 10px 10px 0px black;
+margin-bottom:-20px;}
+
+.para1{margin-top:20px;
+color: black;
+font-size:15px;
+box-shadow: 0px 10px 10px 0px grey;
+padding:50px 60px;
+}
+
+
+
+.letsshop{
+
+  font-size:40px;
+  text-align:center; 
+  margin-top: -50px;
+  margin-bottom:70px;
+  margin-top: 2%;
+}
+
+  .shop{
+  font-size: 10px;
+  font-family:italic;}
+ 
+.special-text{
+  color:red;}
+
+
+.div1:hover{
+background-color: grey;
+font-size:30px;
+color:black;
+background-color:darkgray;}
+
+
+.label{
+
+  color:black;
+font-size:40pX;
+float:left;
+}
+
+.dropbtn {
+background-color: black;
+color: white;
+
+}
+  /****** Header *******/
+  header{
+
+    height: 100px;
+   display: flex;
+   padding: 30px ;
+   margin-top: 20px;
+  position: fixed;
+  position: sticky;
+  top:0;
+    min-height: 90px;
+    width: 100%;
+    align-items: center;
+   }
+
+
+  header .logo img{
+    height: 100px;
+  } 
+  nav{
+    
+    color:white;
+   
+
+   width: 100%;
+   display: flex;
+   align-items: center;
+   
+  }
+  nav ul{
+    margin: 0;
+    
+    display: flex;
+    list-style-type: none;
+    padding: 10px 10px;
+    font-family: 'Playfair Display';
+    font-size:20px;
+    width: 100%;
+    color: white;
+     background-color: black;
+  
+    
+  }
+  nav ul li{
+    padding: 10px 10px;
+    position: relative;
+    transition: 0.8s all;
+    text-shadow: 1px 1px gray;
+    color:black;
+  }
+  nav ul li i{
+    color: white;
+  }
+  
+    nav ul li:hover{
+    background-color:palevioletred;
+    border-radius:30px ;}
+
+  nav ul li:hover a{
+    color:white;}
+
+  nav ul li a{
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+    color:white;}
+  
+  /****** DropDowns *******/
+  
+  nav ul li .dropdown{
+      display: none;
+      padding: 20px;
+      position: absolute;  
+      width: 1000%;
+      height:250px;
+      font-family:  'Playfair Display';
+      top: 40px;
+      color:black;
+     
+  }
+  nav ul li .dropdown li{
+    padding: 10px 10px;
+    
+    color:black;
+   
+  }
+  nav ul li:hover .dropdown{
+  display: block;
+   background-color:black;
+  
+  }
+
+/*****Main Div*****/
+
+
+
+
+/******FOOTER*****/
+
+
+
+  
+
+.container{
+max-width: 100%;
+
+margin: auto;
+}
+ul{
+  list-style:none;}
+
+  li{color: white;}
+.footer{
+  background-color: black;
+padding: 70px;}
+
+
+
+
+.footer-col h4{
+  font-size: 40px;
+  color: white;
+  margin-bottom:30px ;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px;  
+  position: relative;
+}
+.Social_links
+{ font-size:35px;
+  padding:  5px 5px;
+color: white; 
+}
+
+/********Add to Cart*********/
+.cart_div{padding: 20px;
+  border:2px solid black;
+  margin: 15px;
+  margin-bottom: 5%;
+  box-shadow: 0px 8px 8px 0px black;
+  float: left;
+  font-size: 20px;
+  background-color: white;
+  width: 300px;
+  margin-left: 20px;}
+  
+  
+      .desc{
+          text-decoration: none;
+          font-size: 30px;
+          font-weight: bold;
+          font-family:'Playball';
+          text-align: center;
+          padding: 20px 20px;
+  
+      }
+  .cart_div img{
+      width: 100%;
+      height:250px;
+  }
+   button{
+   align-items: center;  
+   color: white;
+   box-shadow: 5px;
+   font-family:'Playfair Display' ;
+   background-color: black;
+   padding:10px 10px;
+   font-size: 15px;
+   display: inline-block;
+   margin: 2px 2px;
+   margin-left: 60%;
+   cursor: pointer;}
+  .cart_div i{
+    float: left;
+    position: relative;
+  }
+   
+  .last_banner{
+    text-align: center;
+  
+  }
+  
+ 
+  Fashion accessories are an integral part of our wardrobes and are chosen specifically to compliment a person's outfit.<br>Raffel Appear brings you the best womens fashion accessories online, check out the latest women accessories in pakistan and buy fashion accessories only from Hill Top" <br>
+  We have the highest quality accessories in Pakistan for the most affordable prices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

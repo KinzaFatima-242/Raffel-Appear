@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics</title>
+    <link rel="stylesheet" href="sheet.css"> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=La+Belle+Aurore&family=Lobster&family=Playball&family=Poppins:ital,wght@0,300;0,400;1,400&family=Zen+Dots&display=swap" rel="stylesheet">
+<style>
+                                    /*****HEADER******/
+
+                                    .header{
+  position: fixed;
+    height: 130px;
+    display: flex;
+    min-height: 90px;
+    position: fixed;
+align-items: center;
+display: flex;
+    background-color:black;
+    color: white;
+    font-size: 50px;
+    width: 100%; 
+    z-index: 999;}
+
+    .header h2{
+margin-left: 40px;
+      align-items: center;
+      font-family: 'Playball';}
+
+  .header .logo img{
+    height: 130px;
+    margin-top: 9.5px;} 
+
+    .header ul{
+      display: block;
+
+    margin-left: 600px;
+    display: flex;
+    list-style-type: none;
+    padding: 10px 10px;
+    font-size:20px;
+    color: white;} 
+    
+.header ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 10px;
+    position: relative;
+    transition: 0.8s all;
+   background-color:black;}
+.header ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+  .header li:hover{
+    background-color:palevioletred;
+    border-radius:80px;
+  }
+  /*****Body background****/
+.body_back{
+  padding: 10px 10px;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(Images/bodyback.jpg); 
+margin-top: 10%;
+gap: 5px 5px;}
+.body_back h1{
+  margin: 30px;
+  font-size: 120px;
+  font-family: 'Playball';
+}
+.body_back th{
+  font-size: 50px;
+  font-family: 'Playball';
+
+}    
+ .body_back td{
+font-size: 20px;
+ }
+.body_back ul li{font-size: 50px ;
+  font-family: 'Playball';
+color:palevioletred;
+text-shadow:0px 2px 2px 0px black;}
+
+/****Our Shops***/
+
+.ourshops{margin-top: 2%;
+  padding: 20px 20px;
+background-color: palevioletred;
+border-radius: 30px;
+  text-align: center;
+  font-family:'Playball';
+  font-size: 60px;
+  text-shadow: 0px 1px 1px 0px black;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px 0px black;
+  text-shadow: 1px 1px darkgray;}
+  
+/*******CART****/
+
+div.gallery{
+    padding: 10px 10px;
+border:2px solid black;
+box-shadow: 0px 10px 10px 0px black;
+float: left;
+margin-left:170px;
+background-color: white;
+margin-top:8px;
+font-size: 20px;
+margin-bottom: 3%;
+border-radius: 30px;
+width: 400px}
+
+
+    .Desc{
+        text-decoration: none;
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-family:'Playball';
+
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+div.gallery img{
+    width: 380px;
+    padding: 20px 20px;
+    text-align: center;
+    height: 350px;
+}
+
+
+.cartbtn{
+  
+  font-family:'Playfair Display' ;
+  align-items: center;  
+  color: white;
+  box-shadow: 5px;
+  background-color: black;
+  padding:5px;
+  font-size: 20px;
+  margin-left: 40%;
+  cursor: pointer;
+}
+/*****Banner*****/
+.makeup_banner{width: 100%;}
+
+.para1{margin-top:0%;
+color: black;
+font-size: 15px;
+box-shadow: 0px 10px 10px 0px grey;
+padding:20px 60px;}
+
+   /***FOOTER***/
+
+.container{
+      max-width: 100%;
+      margin: auto;}
+ul li{
+font-family:'Raleway';
+  list-style:none;
+  margin:5px;
+text-align: center;}
+
+.footer{
+   background-color:black;
+   padding:20px 20px;}
+
+
+.row h4{
+  font-size: 30px;
+  color:palevioletred;
+  font-weight:bold;
+    font-family:'Playball'; 
+  margin-bottom:5px ;
+  padding: 0px 40px;
+
+}
+.row{font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  margin-bottom: 20px;}
+
+
+
+  .Social_links
+{ font-size:35px;
+  padding:  5px 5px;
+color: white; }
+
+
+.outlets{
+    font-size: 30px;
+    background-color: palevioletred;
+    color: white;
+    text-shadow: 1px 1px black;
+    box-shadow: 0px 5px 5px 0px black;
+    margin-bottom: 50px;}
+
+
+/********Add to Cart*********/
+.cart_div{padding: 20px;
+border:2px solid black;
+margin: 15px;
+margin-bottom: 5%;
+box-shadow: 0px 8px 8px 0px black;
+float: left;
+font-size: 20px;
+background-color: white;
+width: 300px;
+margin-left: 20px;}
+
+
+    .desc{
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        font-family:'Playball';
+        text-align: center;
+        padding: 20px 20px;
+
+    }
+.cart_div img{
+    width: 100%;
+    height:250px;
+}
+ button{
+ align-items: center;  
+ color: white;
+ box-shadow: 5px;
+ font-family:'Playfair Display' ;
+ background-color: black;
+ padding:10px 10px;
+ font-size: 15px;
+ display: inline-block;
+ margin: 2px 2px;
+ margin-left: 60%;
+ cursor: pointer;}
+.cart_div i{
+  float: left;
+  position: relative;
+}
+ 
+.last_banner{
+  text-align: center;
+
+}
+
+</style>
+
+  </head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+        <img src="Images/RA.jpg" alt="">
+    </div>
+  <h2>Cosmetics</h2>   
+  <ul>
+    <li><a href="Raffel-Appear.html">Home</a></li>
+    <li><i class="fa-solid fa-cart-shopping"></i></li>
+    <li><i class="fa-regular fa-star"></i></li>
+    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+  
+  </ul>
+  </header>  
+  <section class="body_back">
+    <h1>Biggest Sale <br>of the Year</h1>
+  <div>
+    <table>
+      <tr><td>Raffel Appear offers a complete range of the very latest and classic make-up products.<br> We have the know-how and product performance to give you what you are <br>looking for in your make up. You'll feel worth it with your ideal<br> shade of lipstick, a flawless foundation base and eyes to steal <br>the show no matter the occasion. Whether you need your everyday cover-up or <br>you're getting ready for a red-carpet <br>Snight out explore our designer make up range to find your match.<br>To cater to your inner beauty diva, we have brought makeup online<br>
+        Discover The Latest Best Cosmetics at Raffel APppear Cosmetics Online Store Order<br>. Now and Enjoy Up to 50% off.</td></tr>
+      <tr><td><ul>
+        <li>Grooming Aids</li>
+        <li>Make Up</li>
+      </ul></td></tr>
+      
+    </table>
+  </div>
+  </section> 
+  <section>
+    <h1 class="ourshops">Our Shops</h1>  
+    <div>
+      <div class="gallery">
+      <a href="Cosmetics.html" target="_blank"><img src="Images/aids.jpg"></a>
+      <div class="Desc">Grooming Aids</div>
+    <button class="cartbtn">Lets Shop</button>
+  </div> 
+    </div>
+
+    <div>
+      <div class="gallery">
+      <a href="Cosmetics.html" target="_blank"><img src="Images/blush2.jpg"></a>
+      <div class="Desc">Cosmetics</div>
+    <button class="cartbtn">Lets Shop</button>
+  </div> 
+    </div>
+  </section>
+  <section>
+<div><img class="makeup_banner" src="https://i.pinimg.com/originals/c4/30/50/c430509e01a30e56776f2a3810af4a4b.jpg"></div>
+
+
+  </section>
+  
+</section>
+<section>
+  <div class="carts">
+  <div>    
+    <div class="cart_div">
+    <div><img src="Images/lipsticks.jpg"></div>
+   <div class="desc">Lipstick</div>
+   <div class="price">$650</div>
+  <div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+  </div>
+  <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/liner.jpg"></div>
+ <div class="desc">Liner</div>
+ <div class="price">$450</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/eyeshades.jpg"></div>
+ <div class="desc">Eyeshades</div>
+ <div class="price">$990</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/blush.jpg"></div>
+ <div class="desc">Blushon</div>
+ <div class="price">$670</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/highlight.jpg"></div>
+ <div class="desc">Highlighter</div>
+ <div class="price">$360</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/found2.jpg"></div>
+ <div class="desc">Foundation</div>
+ <div class="price">$850</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/nail2.jpg"></div>
+ <div class="desc">Nailpaint</div>
+ <div class="price">$660</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/concealer1.jpg"></div>
+ <div class="desc">Concealer</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/shampoo.jpg"></div>
+ <div class="desc">Shampoo</div>
+ <div class="price">$450</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/soap1.jpg"></div>
+ <div class="desc">Blushon</div>
+ <div class="price">$675</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/mask.jpg"></div>
+ <div class="desc">Glowing Mask</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/aid4.jpg"></div>
+ <div class="desc">Glower</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/facewash.jpg"></div>
+ <div class="desc">Face Wash</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/tint.jpg"></div>
+ <div class="desc">BB cream</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/honey.jpg"></div>
+ <div class="desc">Honey Facemask</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/moister.jpg"></div>
+ <div class="desc">Moistorizer</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/lipglow.jpg"></div>
+ <div class="desc">Lip Glow</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+<div>
+  <div class="cart_div">
+  <div><img src="Images/aid6.jpg"></div>
+ <div class="desc">Aid</div>
+ <div class="price">$650</div>
+<div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-solid fa-star"></i></div>
+<div><i class="fa-regular fa-star"></i></div>
+</div>
+<div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+<div> <button>Add to Cart</button></div>
+</div> 
+
+</div>
+</section>
+<section>
+  <div class="last_banner">
+    <img src="Images/cosmo_sale.jpg">
+  </div>
+</section>
+
+        
+           <!----Footer---->
+
+<footer class="footer">
+  <div class="container">
+<div class="row">
+
+
+
+<div class="footer_col">
+    <h4>Company</h4>
+    <ul>
+      <li>FAQ</li>
+      <li>Shipping</li>
+      <li>Returns</li>
+      <li>Order Status</li>
+      <li>Payment Options</li>
+      <li>About Us</li>
+      <li>Our Services</li>
+      <li>Privacy Policy</li>
+    </ul></div>
+
+    
+      <div class="footer_col">
+        <h4>Follow Us</h4>
+        <div class="Social_links">
+          
+        
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        
+        </div>
+      
+
+        </div>
+        
+        <div class="footer_col">
+          
+          <ul style="text-align: left;">
+            <li><h4>Raffel Appear</h4>Experience the passion that flows in us.<br> Feel the perfection of beauty and imbibe the sense of style in every bit of you,<br> with us. With our passion and experience, we offer you an indulgence like no other.</li>
+          </ul></div>
+   
+          <div class="footer_col">
+              
+              <h4>Our Locations</h4><div style="color:white;;margin-right:90px;margin-top: -40px"><i class="fa-solid fa-location-dot" style="font-size: 30px;"></i></div>
+              <ul>
+              <li>DHA Phase II</li>
+              <li>Main Tariq Road</li>
+              <li>Gulshan</li>
+                  </ul></div>
+
+                  <div class="footer_col" style="margin-left:80% ; margin-top: -80px;">
+                      <h4>Openining Hours</h4><div style="color: white;font-size:30px;margin-top:-40px;"><i class="fa-solid fa-clock"></i></div>
+                      <ul>
+                      <li>Monday-Saturday</li>
+                      <li>11:00am - 11:00pm</li>
+                          </ul></div>
+    
+                 
+          
+</div>
+</div>
+</footer>
+   
+          
+
+</body>
+</html>

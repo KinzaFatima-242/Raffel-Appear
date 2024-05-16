@@ -1,0 +1,630 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot_Wear</title>
+    <link rel="stylesheet" href="sheet.css">
+
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=La+Belle+Aurore&family=Lobster&family=Playball&family=Poppins:ital,wght@0,300;0,400;1,400&family=Zen+Dots&display=swap" rel="stylesheet">
+
+<style>
+
+                                    
+                                   /*****HEADER******/
+
+.header{
+  margin: 0px 0px; 
+  position: fixed;
+    height: 130px;
+    display: flex;
+    min-height: 90px;
+    position: fixed;
+align-items: center;
+display: flex;
+    background-color:black;
+    color: white;
+    font-size: 50px;
+    width: 100%; 
+    z-index: 999;}
+
+
+    .header h2{
+margin-left: 40px;
+      align-items: center;
+      font-family: 'Playball';}
+
+
+  .header .logo img{
+    height: 130px;
+    margin-top: 9.5px;} 
+
+    .header ul{
+      display: block;
+
+    margin-left: 500px;
+    display: flex;
+    list-style-type: none;
+    padding: 10px 10px;
+    font-size:20px;
+    color: white;} 
+    
+.header ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 20px;
+    position: relative;
+    margin-left: -10px;
+    transition: 0.8s all;
+   background-color:black;}
+.header ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+  .header li:hover{
+    background-color:palevioletred;
+    border-radius:80px;
+  }
+
+    /*****Body background****/
+.body_back{
+  padding: 10px 10px;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(Images/lastbanner.jpg); 
+margin-top: 10%;
+gap: 5px 5px;}
+.body_back h1{
+  text-shadow: 2px 2px white;
+
+  font-size: 100px;
+  font-family: 'Playball';
+}
+.body div.background{
+  float: left;
+}
+.body_back p{
+  font-size: 20px ;
+
+}
+
+.body_back th{
+
+      font-size: 50px;
+  font-family: 'Playball';
+
+}
+
+.body_back ul li{font-size: 30px ;
+  font-family: 'Playball';
+color:black;
+text-align:left ;
+text-shadow:0px 2px 2px 0px black;}
+
+
+/********Banners*********/
+
+.banner1{width: 100%;}
+.video{margin-left: 4%;}
+
+
+
+  /*******Categories****/
+
+  div.gallery{
+  margin-left: 50px;
+    padding: 10px;
+border:2px solid black;
+box-shadow: 0px 10px 10px 0px black;
+float: left;
+margin-top:3%;
+font-size: 20px;
+width: 270px}
+
+
+    .Desc{
+        text-decoration: none;
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-family:'Playball';
+
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+div.gallery img{
+    width: 100%;
+    height: 350px;
+}
+
+
+.cartbtn{
+  
+  font-family:'Playfair Display' ;
+  align-items: center;  
+  color: white;
+  box-shadow: 5px;
+  background-color: black;
+  padding:5px;
+  font-size: 20px;
+  margin-left: 30%;
+  cursor: pointer;
+}
+  
+        /********Add to Cart*********/
+.cart_div{padding: 20px;
+border:2px solid black;
+margin: 15px;
+margin-bottom: 5%;
+box-shadow: 0px 8px 8px 0px black;
+float: left;
+font-size: 20px;
+background-color: white;
+width: 300px;
+margin-left: 20px;}
+
+
+    .desc{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        font-family:'Playfair Display' ;
+       text-align: left;
+        padding: 5px 5px;
+
+    }
+.cart_div img{
+    width: 250px;
+    height:300px;
+}
+ button{border-radius: 6px;
+ align-items: center;  
+ color: white;
+ box-shadow: 5px;
+ font-family:'Playfair Display' ;
+ background-color: black;
+ padding:10px 10px;
+ font-size: 15px;
+ display: inline-block;
+ margin: 2px 2px;
+ margin-left: 60%;
+ cursor: pointer;}
+.cart_div i{
+  float: left;
+  position: relative;
+}
+
+   
+  
+
+
+
+
+
+
+    
+    
+/***FOOTER***/
+
+.container{
+      max-width: 100%;
+      margin: auto;}
+ul li{
+font-family:'Raleway';
+  list-style:none;
+  margin:5px;
+text-align: center;}
+
+.footer{
+   background-color:black;
+   padding:20px 20px;}
+
+
+.row h4{
+  font-size: 30px;
+  color:palevioletred;
+  font-weight:bold;
+    font-family:'Playball'; 
+  margin-bottom:5px ;
+  padding: 0px 40px;
+
+}
+.row{font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  margin-bottom: 20px;}
+
+
+
+  .Social_links
+{ font-size:35px;
+  padding:  5px 5px;
+color: white; }
+
+
+.outlets{
+    font-size: 30px;
+    background-color: palevioletred;
+    color: white;
+    text-shadow: 1px 1px black;
+    box-shadow: 0px 5px 5px 0px black;
+    margin-bottom: 50px;}
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+        <img src="Images/RA.jpg" alt="">
+    </div>
+  <h2>Foot_Wear</h2>   
+  <ul>
+    <li><a href="Raffel-Appear.html">Home</a></li>
+    <li><i class="fa-solid fa-cart-shopping"></i></li>
+    <li><i class="fa-regular fa-star"></i></li>
+    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+  
+  </ul>
+
+  </header>
+  
+<!-- Body Background -->
+
+<section class="body_back">
+  <h1>Keep your Heels and<br>
+  Standard high...</h1>
+<div>
+ <p>Whatever type of footwear you are in favour of,<br> buy your shoes online; as online shopping .<br>Complete your trendy and stylish look with our footwear collection<br>Get the latest designer footwear for women from <br>the biggest online store in Pakistan. Buy shoes, flats, and sneakers<br> at affordable prices from Hill Top.From classic shoes and Moccasins<br> in the finest Quality, to the latest men's trends from our brand. .<br> Finest quality leather shoes available in any design of your choice.</p>
+ </div>
+ <ul>
+  <li>Flat Shoes</li>
+  <li>Spooky Heels</li>
+  <li>Flat Shoes</li>
+  <li>Cassuals</li>
+  <li>Gladiator Sandals</li>
+  <li>and may more...</li>
+  <li></li>
+
+ </ul>
+</section>
+
+
+
+
+    <!-----------CATOGORIES------------>
+    <section>
+      <div>
+        <div class="gallery">
+        <a href="Boutique.html" target="_blank"><img src="Images/sleeper.jpg"></a>
+        <div class="Desc">Flat</div>
+      <button class="cartbtn">Lets Shop</button>
+    </div> 
+  
+        <div>
+          <div class="gallery">
+          <a href="Foot_Wear.html" target="_blank"><img src="Images/shoe2.jpg"></a>
+          <div class="Desc">Spooky Heels</div>
+          <button class="cartbtn">Lets Shop</button>
+          </div> 
+  
+          <div>
+            <div class="gallery">
+            <a href="Foot_Wear.html" target="_blank"><img src="Images/shoe8.jpg"></a>
+            <div class="Desc">Shoes</div>
+            <button class="cartbtn">Lets Shop</button>
+            </div> 
+         
+
+            <div>
+              <div class="gallery">
+              <a href="Foot_Wear.html" target="_blank"><img src="Images/sleeper1.jpg"></a>
+              <div class="Desc">Cassuals</div>
+              <button class="cartbtn">Lets Shop</button>
+              </div>
+            </div><hr>
+</section>
+<div>
+  <img class="banner1" src="Images/shoebanner.jpg">
+</div>
+
+<pre class="video"><video height="300" width="400"   controls muted autoplay>
+  <source src="video/footwear.mp4" type="video/mp4" >
+  </video>   <video height="300" width="400" controls muted autoplay>
+    <source src="video/footwear.mp4" type="video/mp4" >
+    </video>    <video height="300" width="400"   controls muted autoplay>
+      <source src="video/footwear.mp4" type="video/mp4" >
+    </video></body></pre>
+
+<hr>
+        <div class="carts">
+        <div>    
+          <div class="cart_div">
+          <div><img src="Images/sleeper.jpg"></div>
+         <div class="desc">Vol-098</div>
+         <div class="price">$2450</div>
+        <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+        </div>
+        <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+<section>
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/shoe2.jpg"></div>
+       <div class="desc">Vol-908</div>
+       <div class="price">$33450</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/shoe3.jpg"></div>
+       <div class="desc">Vol-678</div>
+       <div class="price">$5690</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/shoe4.jpg"></div>
+       <div class="desc">Vol-678</div>
+       <div class="price">$3670</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/shoe5.jpg"></div>
+       <div class="desc">Vol-475</div>
+       <div class="price">$3360</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/shoe6.jpg"></div>
+       <div class="desc">Vol-576</div>
+       <div class="price">$2850</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/shoe7.jpg"></div>
+       <div class="desc">Vol-897</div>
+       <div class="price">$3660</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/shoe8.jpg"></div>
+       <div class="desc">Vol-989</div>
+       <div class="price">$5650</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/shoe1.jpg"></div>
+       <div class="desc">Vol-789</div>
+       <div class="price">$3450</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/sleeper1.jpg"></div>
+       <div class="desc">Vol-675</div>
+       <div class="price">$4675</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/khoosay.jpg"></div>
+       <div class="desc">Vol-890</div>
+       <div class="price">$4650</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+      <div>
+        <div class="cart_div">
+        <div><img src="Images/kolapori.jpg"></div>
+       <div class="desc">Vol-789</div>
+       <div class="price">$4650</div>
+      <div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-solid fa-star"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
+      </div>
+      <div>Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.</div>
+      <div> <button>Add to Cart</button></div>
+      </div> 
+      
+
+</section>      
+
+
+           
+ 
+
+
+    <div><img style="width: 100%;" src="Images/cosmo_sale.jpg"></div>
+
+ <!----Footer---->
+
+ <footer class="footer">
+  <div class="container">
+<div class="row">
+
+
+
+<div class="footer_col">
+    <h4>Company</h4>
+    <ul>
+      <li>FAQ</li>
+      <li>Shipping</li>
+      <li>Returns</li>
+      <li>Order Status</li>
+      <li>Payment Options</li>
+      <li>About Us</li>
+      <li>Our Services</li>
+      <li>Privacy Policy</li>
+    </ul></div>
+
+    
+      <div class="footer_col">
+        <h4>Follow Us</h4>
+        <div class="Social_links">
+          
+        
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        
+        </div>
+      
+
+        </div>
+        
+        <div class="footer_col">
+          
+          <ul style="text-align: left;">
+            <li><h4>Raffel Appear</h4>Experience the passion that flows in us.<br> Feel the perfection of beauty and imbibe the sense of style in every bit of you,<br> with us. With our passion and experience, we offer you an indulgence like no other.</li>
+          </ul></div>
+   
+          <div class="footer_col">
+              
+              <h4>Our Locations</h4><div style="color:white;;margin-right:90px;margin-top: -40px"><i class="fa-solid fa-location-dot" style="font-size: 30px;"></i></div>
+              <ul>
+              <li>DHA Phase II</li>
+              <li>Main Tariq Road</li>
+              <li>Gulshan</li>
+                  </ul></div>
+
+                  <div class="footer_col" style="margin-left:80% ; margin-top: -80px;">
+                      <h4>Openining Hours</h4><div style="color: white;font-size:30px;margin-top:-40px;"><i class="fa-solid fa-clock"></i></div>
+                      <ul>
+                      <li>Monday-Saturday</li>
+                      <li>11:00am - 11:00pm</li>
+                          </ul></div>
+    
+                 
+          
+</div>
+</div>
+</footer>
+
+    
+
+    
+</body>
+</html>
